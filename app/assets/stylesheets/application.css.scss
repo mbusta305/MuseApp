@@ -28,12 +28,27 @@
  }
 
  .button {
+   display: inline;
+  height: 100%;
+  width: 100%;
  	border: 1px solid #9B9B9B;
  	padding: .7rem 1.25rem;
  	border-radius: .3rem;
  	outline: none;
- 	background: #00cc00;
+ 	background: #691A99;
  	color: white;
+  &:hover {
+    color: #FFC107;
+    border: 1px solid #FFC107;
+  }
+ }
+
+ body header nav .button:nth-child(3) {
+   background: #FFC107;
+   &:hover {
+     color: #691A99;
+     border: 1px solid #691A99;
+   }
  }
 
  header {
@@ -44,10 +59,10 @@
  		float: left;
  		font-size: 2.75rem;
  		a {
- 			color: #333233;
+ 			color: #691A99;
  			text-decoration: none;
  			&:hover {
- 				color: #50A7C7;
+ 				color: #FFC107;
  			}
  		}
  	}
@@ -59,7 +74,8 @@
  			color: #9B9B9B;
  			text-decoration: none;
  			&:hover {
- 				color: #50A7C7;
+ 				color: #FFC107;
+        border: 1px solid #FFC107;
  			}
  		}
  	}
@@ -88,7 +104,7 @@
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: purple;
+    background-color: #691A99;
     border: none;
     color: white;
     padding: 16px 32px;
