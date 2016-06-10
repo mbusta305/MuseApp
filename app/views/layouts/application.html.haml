@@ -11,6 +11,8 @@
 	%header
 		.wrapper.clearfix
 			#logo= link_to "N-LITE", root_path
+			%br
+			=image_tag "bulb.png"
 			%nav
 				- if user_signed_in?
 					= link_to current_user.name, edit_user_registration_path
@@ -24,3 +26,5 @@
 	%p.alert= alert
 	.wrapper
 		= yield
+	%footer
+		%p &clubs; &copy; 2016 Michael Busta 

@@ -1,15 +1,27 @@
 /*
  *= require_self
  */
-
+ html {
+   background-color: black;
+   color: #808080;
+ }
  body {
  	font-family: "Proxima Nova";
  	font-weight: 100;
  }
 
- h1, h2, h3, h4, h5, h6 {
+ h1, h2, h4, h5, h6 {
  	font-weight: 100;
   text-align: center;
+ }
+
+ h3 {
+   font-weight: 100;
+ }
+
+ footer p {
+   text-align: center;
+   clear: both;
  }
 
  .wrapper {
@@ -33,7 +45,7 @@
  	padding: .7rem 1.25rem;
  	border-radius: .3rem;
  	outline: none;
- 	background: #33cc33;
+ 	background: #00B0FF;
  	color: white;
   &:hover {
     color: #FFC107;
@@ -44,16 +56,16 @@
  body header nav .button:nth-child(3) {
    background: #FFC107;
    &:hover {
-     color: #691A99;
-     border: 1px solid #691A99;
+     color: #00B0FF;
+     border: 1px solid #00B0FF;
    }
  }
 
  body header nav .button:nth-child(4) {
    background: #ff0000;
    &:hover {
-     color: #691A99;
-     border: 1px solid #691A99;
+     color: #00B0FF;
+     border: 1px solid #00B0FF;
    }
  }
 
@@ -65,13 +77,19 @@
  		float: left;
  		font-size: 1.75rem;
  		a {
- 			color: #9B9B9B;
+ 			color: #00B0FF;
  			text-decoration: none;
  			&:hover {
  				color: #FFC107;
  			}
  		}
  	}
+  img {
+    height: 5%;
+    width: 5%;
+    float: left;
+    clear: both;
+  }
  	nav {
  		float: right;
  		a {
@@ -110,7 +128,7 @@
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #691A99;
+    background-color: #00B0FF;
     border: none;
     color: white;
     padding: 16px 32px;

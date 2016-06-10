@@ -14,3 +14,8 @@ class CommentsController < ApplicationController
     end
   end
 end
+
+# def destroy
+#   @comment.destroy
+#   redirect_to :back
+# end
