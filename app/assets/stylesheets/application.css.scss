@@ -2,7 +2,6 @@
  *= require_self
  */
 
-
  body {
  	font-family: "Proxima Nova";
  	font-weight: 100;
@@ -31,11 +30,10 @@
    display: inline;
   height: 100%;
   width: 100%;
- 	border: 1px solid #9B9B9B;
  	padding: .7rem 1.25rem;
  	border-radius: .3rem;
  	outline: none;
- 	background: #691A99;
+ 	background: #33cc33;
  	color: white;
   &:hover {
     color: #FFC107;
@@ -51,6 +49,14 @@
    }
  }
 
+ body header nav .button:nth-child(4) {
+   background: #ff0000;
+   &:hover {
+     color: #691A99;
+     border: 1px solid #691A99;
+   }
+ }
+
  header {
  	width: 100%;
  	padding: 2rem 0;
@@ -59,7 +65,7 @@
  		float: left;
  		font-size: 1.75rem;
  		a {
- 			color: #691A99;
+ 			color: #9B9B9B;
  			text-decoration: none;
  			&:hover {
  				color: #FFC107;
