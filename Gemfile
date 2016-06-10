@@ -25,6 +25,9 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'acts_as_votable', '~> 0.10.0'
+# gem 'dotenv'
+gem 'aws-sdk', '< 2'
+gem 'pry-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -36,7 +39,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'pry-byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 end
