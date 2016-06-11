@@ -28,6 +28,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 # gem 'dotenv'
 gem 'aws-sdk', '< 2'
 gem 'pry-rails'
+gem 'rails_12factor', group: :production
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
