@@ -1,28 +1,7 @@
-== README
+A web application that allows users to find web developers from Wyncode Academy.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It shows a link to the developers portfolio, comments about the developers and even allows users to upvote or downvote the developers.
 
-Things you may want to cover:
+The back end of the app is built on Ruby on Rails
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The front end was built mostly in Haml and Sass.
